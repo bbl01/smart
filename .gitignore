@@ -1,0 +1,78 @@
+# ─── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+.env.local
+
+# ─── Testing ─────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+*.log
+
+# ─── Node / Frontend ─────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.env.local
+.npm
+*.tsbuildinfo
+
+# ─── Docker ──────────────────────────────────────────────────────
+.docker/
+
+# ─── Environment ─────────────────────────────────────────────────
+.env
+.env.prod
+.env.staging
+!.env.example
+
+# ─── IDE ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── ML Models ───────────────────────────────────────────────────
+ml_models/
+*.onnx
+*.bin
+*.pt
+*.pth
+faiss.index
+dataset/
+
+# ─── Logs ────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Uploads / Media ─────────────────────────────────────────────
+uploads/
+media/
+static/collected/
+
+# ─── SSL Certs ───────────────────────────────────────────────────
+docker/nginx/ssl/*.pem
+docker/nginx/ssl/*.crt
+docker/nginx/ssl/*.key
+
+# ─── Alembic ─────────────────────────────────────────────────────
+backend/migrations/versions/__pycache__/
+
+# ─── Backups ─────────────────────────────────────────────────────
+backups/
+*.sql.gz
+*.dump
